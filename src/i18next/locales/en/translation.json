@@ -1,0 +1,13 @@
+{
+	"home": {
+		"presentacion": "Esta pagina se encuentra traducida al INGLES",
+		"descripcion": "Lista para operar con estilo ;)"
+	},
+    "react": "Learn React",
+    "irReact": "Go to React -> react.dev/learn",
+    "tailwind":{
+        "exploraTailwind" : "Explore all the possibilities that Tailwind offers for your React project.",
+        "holaTailwind" : "Welcome to my app with Tailwind!"
+    }
+    
+}

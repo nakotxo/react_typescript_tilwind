@@ -1,0 +1,12 @@
+{
+	"home": {
+		"presentacion": "Esta pagina se encuentra traducida al euskera",
+		"descripcion": "Lista para operar con estilo ;)"
+	},
+    "react": "Ikasi React",
+    "irReact": "Joan Reactara -> react.dev/learn",
+    "tailwind":{
+        "exploraTailwind" : "Arakatu Tailwindek zure React proiekturako eskaintzen dituen aukera guztiak.",
+        "holaTailwind" : "Ongi etorri Tailwind-ekin nire aplikaziora!"
+    }
+}

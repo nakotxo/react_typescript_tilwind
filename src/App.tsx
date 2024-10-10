@@ -1,24 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './i18next/i18n'; // inicializar la traduccion con i18next
+import './assets/css/App.css';  // importar el css principal
+import './assets/css/webStyle.css'; // importar variables principales de CSS
 
+import Header from './componentes/header/header';
+import Body from './componentes/body/body';
+import Footer from './componentes/footer/footer';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+        <Header clase="bg-blue-500 text-white p-4"/>
+        <div className='container-fluid'>
+          <Body />
+        </div>
+        <Footer/>
     </div>
   );
 }
