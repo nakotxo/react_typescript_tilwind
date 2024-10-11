@@ -1,5 +1,5 @@
 # Stage 1: Build
-FROM node:16-alpine AS build
+FROM node:20-alpine AS build
 # Directorio donde se mantendrán los archivos de la app
 WORKDIR /app
 # Copiar el package.json y el package-lock en nuestro WORKDIR
@@ -20,4 +20,3 @@ CMD ["npm", "start"]
 
 # construcción imagen
 # docker build -t pruebadorlet .
-
