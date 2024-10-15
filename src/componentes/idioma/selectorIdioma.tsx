@@ -18,7 +18,7 @@ function LangSelector() {
             if (userBrowserLang === undefined) {
                 userBrowserLang = idiomas[0];
             }
-            i18n.changeLanguage(userBrowserLang.lang);
+            i18n.changeLanguage(userBrowserLang.code);
             setSelected(userBrowserLang);
         // cambiamos el idioma de la aplicacion al idioma del navegador
         } catch (error) {
